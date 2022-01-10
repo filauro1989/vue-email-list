@@ -12,7 +12,11 @@
 </head>
 <body>
     <div id="app">
-    {{ number }}
+        <ul>
+            <li v-for="(email, index) in email">
+                {{ email }}
+            </li>
+        </ul>
     </div>
     <script src="script.js"></script>
 </body>
